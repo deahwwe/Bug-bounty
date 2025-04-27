@@ -1,27 +1,24 @@
-# Bug Bounty Checklist for Web App
+deah
+====
 
-> This checklist may help you to have a good methodology for bug bounty hunting  
-When you have done a action, don't forget to check ;)  
-Happy hunting !  
 
-## Table of Contents
+##                                                                                                                                                                                                                       Authentication
 
-* [Recon on wildcard domain](#"Recon_on_wildcard_domain")
-* [Single domain](#Single_domain)
-* [Information Gathering](#Information)
-* [Configuration Management](#Configuration)
-* [Secure Transmission](#Transmission)
-* [Authentication](#Authentication)
-* [Session Management](#Session)
-* [Authorization](#Authorization)
-* [Data Validation](#Validation)
-* [Denial of Service](#Denial)
-* [Business Logic](#Business)
-* [Cryptography](#Cryptography)
-* [Risky Functionality - File Uploads](#File)
-* [Risky Functionality - Card Payment](#Card)
-* [HTML 5](#HTML)
-
+                                                اختبار تجاوز المصادقة 
+                                         اختبار الحماية من هجمات القوة الغاشمة 
+اختبار قواعد جودة كلمة المرور
+اختبار وظيفة "تذكرني"
+اختبار الإكمال التلقائي لنماذج/إدخال كلمات المرور
+اختبار إعادة تعيين كلمة المرور و/أو استعادتها
+اختبار عملية تغيير كلمة المرور
+اختبار CAPTCHA
+اختبار المصادقة متعددة العوامل
+اختبار وجود وظيفة تسجيل الخروج
+اختبار عمليات تسجيل الدخول الافتراضية
+اختبار سجل المصادقة الذي يمكن للمستخدم الوصول إليه
+التحقق من إنهاء الجلسة بعد تسجيل الخروج.
+اختبار مشاكل التحكم في الوصول العمودي (المعروفة أيضًا باسم تصعيد الامتيازات)
+اختبار مشاكل التحكم في الوصول الأفقي (بين مستخدمين على نفس مستوى الامتياز)
 
 ## <a name="Recon_on_wildcard_domain">Recon on wildcard domain</a>  
 
